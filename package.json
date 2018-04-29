@@ -10,5 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "bcrypt": "2.0.1"
   }
 }
