@@ -80,8 +80,8 @@ application.put('/image', (req, res) => {
 
 application.post('/imageurl', (req, res) => { image.handleImageURL(req, res) } )
 
-application.listen(3000, () => {
-  console.log("Application is running on port 3000");
+application.listen(process.env.PORT || 3000, () => {
+  console.log(`Application is running on port ${process.env.PORT}`);
 })
 
 // PLAN
