@@ -12,11 +12,12 @@
     "nodemon": "^1.17.3"
   },
   "dependencies": {
-    "express": "*",
-    "body-parser": "*",
     "bcrypt-nodejs": "*",
+    "body-parser": "*",
+    "clarifai": "*",
     "cors": "2.8.4",
+    "express": "*",
     "knex": "0.14.6",
-    "clarifai": "*"
+    "pg": "^7.4.1"
   }
 }
